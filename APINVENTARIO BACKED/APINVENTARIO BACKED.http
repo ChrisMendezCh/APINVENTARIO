@@ -1,0 +1,6 @@
+@APINVENTARIO_BACKED_HostAddress = http://localhost:5008
+
+GET {{APINVENTARIO_BACKED_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

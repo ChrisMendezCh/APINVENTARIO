@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APINVENTARIO.BACKEND", "APINVENTARIO BACKED\APINVENTARIO.BACKEND.csproj", "{1B6159FF-DE05-4FDE-829B-C9ED2067D7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APINVENTARIO.SHARED", "APINVENTARIO.SHARED\APINVENTARIO.SHARED.csproj", "{97D09B8E-4ED5-43A4-BEB2-5804175FA8A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6159FF-DE05-4FDE-829B-C9ED2067D7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6159FF-DE05-4FDE-829B-C9ED2067D7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6159FF-DE05-4FDE-829B-C9ED2067D7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6159FF-DE05-4FDE-829B-C9ED2067D7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D09B8E-4ED5-43A4-BEB2-5804175FA8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D09B8E-4ED5-43A4-BEB2-5804175FA8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D09B8E-4ED5-43A4-BEB2-5804175FA8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D09B8E-4ED5-43A4-BEB2-5804175FA8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04A79AC2-927D-4497-B3B6-A4F1F11F5A1B}
+	EndGlobalSection
+EndGlobal
