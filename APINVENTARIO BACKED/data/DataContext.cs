@@ -1,16 +1,11 @@
-﻿using Microsoft.AspNetCore.Authentication;
-using System.Collections.Generic;
-
-namespace APINVENTARIO_BACKED.data
+﻿using Microsoft.EntityFrameworkCore;
 {
-    public class DataContext : Dbcontext
+    public class DataContext : DbContext
     {
-            public DataContext(DbContextOptions<DataContext>options) : base(options) { }
-        public ISet<Rol> Roles { get; set; }
-        protected override void OnModelCreating(modelbuilder modelbuilder)
-        {
-            base.OnModelCreating(modelbuilder);
-            Roles = new ISet<Rol>();
-        }
+    public DataContext(DbContextOptions<DataContext>options) : base(options) { }
+    public DbSet<Rol>roles { get; set; }
+    {
+        
     }
+}
 }
